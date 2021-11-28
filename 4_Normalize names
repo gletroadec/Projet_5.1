@@ -1,8 +1,30 @@
 #Afin de comparer les fichiers entre eux, il va falloir qu'ils soient dans des formats comparables.
+
+
 cut -f1 Data/Chinese_data/ERP111526_taxonomy_abundances_SSU_v4.1.tsv > Data/4_/colomn_names.txt
 
-#sed -i '' 's/;p//g' /Users/gael/Documents/Projet_5.1/Data/4_/colomn_names.txt
-#MacOS users please use these
+
+#### For Lunix terminals :######
+
+#sed -i 's/;p//g' /Users/gael/Documents/Projet_5.1/Data/4_/colomn_names.txt
+#sed -i 's/;k//g' /Users/gael/Documents/Projet_5.1/Data/4_/colomn_names.txt
+#sed -i 's/;c//g' /Users/gael/Documents/Projet_5.1/Data/4_/colomn_names.txt
+#sed -i 's/;o//g' /Users/gael/Documents/Projet_5.1/Data/4_/colomn_names.txt
+#sed -i 's/;f//g' /Users/gael/Documents/Projet_5.1/Data/4_/colomn_names.txt
+#sed -i 's/;g//g' /Users/gael/Documents/Projet_5.1/Data/4_/colomn_names.txt
+#sed -i 's/;s//g' /Users/gael/Documents/Projet_5.1/Data/4_/colomn_names.txt
+#sed -i 's/sk__//g' /Users/gael/Documents/Projet_5.1/Data/4_/colomn_names.txt
+#tr '[:upper:]' '[:lower:]' < /Users/gael/Documents/Projet_5.1/Data/4_/colomn_names.txt > /Users/gael/Documents/Projet_5.1/Data/4_/lowered_names.txt
+#sed -i 's/__________/_/g' /Users/gael/Documents/Projet_5.1/Data/4_/lowered_names.txt
+#sed -i 's/_____/_/g' /Users/gael/Documents/Projet_5.1/Data/4_/lowered_names.txt
+#sed -i 's/__/_/g' /Users/gael/Documents/Projet_5.1/Data/4_/lowered_names.txt
+#sed -i 's/__/_/g' /Users/gael/Documents/Projet_5.1/Data/4_/lowered_names.txt
+#sed -i 's/_/\t/g' /Users/gael/Documents/Projet_5.1/Data/4_/lowered_names.txt
+#cut -f7 -f8 /Users/gael/Documents/Projet_5.1/Data/4_/lowered_names.txt > /Users/gael/Documents/Projet_5.1/Data/4_/colomns_7_8.txt
+#sed -i 's/\n//g' /Users/gael/Documents/Projet_5.1/Data/4_/colomns_7_8.txt
+#sed -i 's/sp.//g' /Users/gael/Documents/Projet_5.1/Data/4_/colomns_7_8.txt
+
+#MacOS terminal :
 
 sed -i '' 's/;p//g' /Users/gael/Documents/Projet_5.1/Data/4_/colomn_names.txt
 sed -i '' 's/;k//g' /Users/gael/Documents/Projet_5.1/Data/4_/colomn_names.txt
@@ -21,4 +43,7 @@ sed -i '' 's/_/\t/g' /Users/gael/Documents/Projet_5.1/Data/4_/lowered_names.txt
 cut -f7 -f8 /Users/gael/Documents/Projet_5.1/Data/4_/lowered_names.txt > /Users/gael/Documents/Projet_5.1/Data/4_/colomns_7_8.txt
 sed -i '' 's/\n//g' /Users/gael/Documents/Projet_5.1/Data/4_/colomns_7_8.txt
 sed -i '' 's/sp.//g' /Users/gael/Documents/Projet_5.1/Data/4_/colomns_7_8.txt
-# sed 's/[ecrire_le_séparateur]/\n/g'[nom_du_fichier] > [nom_du_nouveau_fichier.txt]
+sed -i '' 's/'[0-9]'//g' Data/4_/colomns_7_8
+sed -i '' '/^[[:space:]]*$/d' Data/4_/colomns_7_8.txt
+rm Data/4_/colomn_names.txt
+rm Data/4_/lowered_names.txt
