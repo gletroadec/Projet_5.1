@@ -1,0 +1,16 @@
+q()`
+q()
+racine.de.quatre
+grep -c '^>'  PL6_arn.fasta#
+2
+setwd(dir = "/Users/gael/Documents/Projet_5.1")#
+Test <- read.delim("Datas_Chinese.tsv", header=TRUE, row.names=1)#
+Test1 <- t(Test)#
+Test2 <- data.frame(Test1)#
+Test3 <- write.table(Test2, file='Datas_Chinese2.tsv', quote=FALSE, sep='  ')
+setwd(dir = '/Users/gael/Documents/Projet_5.1/')
+Test <- read.delim("/Users/gael/Documents/Projet_5.1/Data/Chinese_data/ERP111526_taxonomy_abundances_SSU_v4.1.tsv", header = True, row.names=1)
+Test <- read.delim("/Users/gael/Documents/Projet_5.1/Data/Chinese_data/ERP111526_taxonomy_abundances_SSU_v4.1.tsv", header = TRUE, row.names=1)
+Test1 <-t(Test)
+Test2 <- data.frame(Test1)
+Test3 <- write.table(Test2, file='/Users/gael/Documents/Projet_5.1/Data/Chinese_data/ERP111526_taxonomy_abundances_SSU_v4.1.tsv', quote=FALSE,sep='	')
