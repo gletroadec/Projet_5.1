@@ -43,7 +43,7 @@ sed -i '' 's/_/\t/g' /Users/gael/Documents/Projet_5.1/Data/4_/lowered_names.txt
 cut -f7 -f8 /Users/gael/Documents/Projet_5.1/Data/4_/lowered_names.txt > /Users/gael/Documents/Projet_5.1/Data/4_/colomns_7_8.txt
 sed -i '' 's/\n//g' /Users/gael/Documents/Projet_5.1/Data/4_/colomns_7_8.txt
 sed -i '' 's/sp.//g' /Users/gael/Documents/Projet_5.1/Data/4_/colomns_7_8.txt
-sed -i '' 's/'[0-9]'//g' Data/4_/colomns_7_8
+sed -i '' 's/[][]//g' Data/4_/colomns_7_8.txt
 sed -i '' '/^[[:space:]]*$/d' Data/4_/colomns_7_8.txt
 rm Data/4_/colomn_names.txt
 rm Data/4_/lowered_names.txt

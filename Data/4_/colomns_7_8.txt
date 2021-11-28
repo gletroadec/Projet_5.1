@@ -378,7 +378,7 @@ eubacterium	ruminantium
 eubacterium	
 eubacterium	uniforme
 eubacterium	xylanophilum
-[eubacterium]	eligens
+eubacterium	eligens
 bacterium	19gly4
 bacterium	1
 bacterium	28-4
@@ -415,8 +415,8 @@ blautia
 blautia	
 blautia	
 blautia	stercoris
-[ruminococcus]	gnavus
-[ruminococcus]	torques
+ruminococcus	gnavus
+ruminococcus	torques
 butyrivibrio	crossotus
 butyrivibrio	
 catonella	
@@ -431,12 +431,12 @@ fusicatenibacter	saccharivorans
 herbinix	hemicellulosilytica
 lachnobacterium	
 lachnoclostridium	phytofermentans
-[clostridium]	aldenense
-[clostridium]	bolteae
-[clostridium]	lavalense
-[clostridium]	polysaccharolyticum
-[clostridium]	populeti
-[clostridium]	saccharolyticum
+clostridium	aldenense
+clostridium	bolteae
+clostridium	lavalense
+clostridium	polysaccharolyticum
+clostridium	populeti
+clostridium	saccharolyticum
 marvinbryantia	formatexigens
 murimonas	intestini
 niameybacter	massiliensis
@@ -490,8 +490,8 @@ neglecta	timonensis
 oscillora	guilliermondii
 papillibacter	cinnamivorans
 pygmaiobacter	massiliensis
-[clostridium]	leptum
-[eubacterium]	siraeum
+clostridium	leptum
+eubacterium	siraeum
 ruminococcus	albus
 ruminococcus	bicirculans
 ruminococcus	bromii
@@ -522,7 +522,7 @@ catenibacterium	mitsuokai
 eggerthia	catenaformis
 erysipelatoclostridium	ramosum
 erysipelatoclostridium	
-[clostridium]	roforme
+clostridium	roforme
 kandleria	vitulina
 merdibacter	massiliensis
 solobacterium	moorei
