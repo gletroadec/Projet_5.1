@@ -1,0 +1,2589 @@
+#sampleid
+archaea
+
+
+
+redsea-s03	b6
+
+
+
+
+
+
+
+
+
+methanobrevibacter	smithii
+methanoaera	stadtmanae
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+methanogranum
+methanomethylophilus
+
+candidatus	methanomassiliicoccus
+
+
+
+
+
+
+nitrosocaldaceae
+
+
+bacteria
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2
+9
+
+
+
+
+
+
+
+7
+4w
+4w
+
+
+
+
+
+
+
+
+
+fec	1
+fec	2
+hn-hfo10
+hn-hfo121
+hn10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+koribacter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+solibacter
+
+
+
+
+
+
+
+
+
+microthrix
+
+
+
+
+
+
+
+actinomyces	hongkongensis
+actinomyces	odontolyticus
+
+
+
+
+
+
+
+
+
+bifidobacterium	angulatum
+bifidobacterium	breve
+bifidobacterium	choerinum
+bifidobacterium	commune
+bifidobacterium	longum
+bifidobacterium	magnum
+bifidobacterium	pseudocatenulatum
+bifidobacterium	pullorum
+bifidobacterium	ramosum
+bifidobacterium	
+
+
+
+
+
+actinomarinaceae
+actinomarinaceae	candidatus
+
+planktophila
+
+
+
+
+
+
+corynebacterium	glaucum
+corynebacterium	
+corynebacterium	
+corynebacterium	
+
+
+
+
+
+mycobacterium	fragae
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+whipplei
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aquiluna
+flaviluna
+limnoluna
+
+
+
+
+
+
+
+
+rothia	dentocariosa
+
+
+
+
+
+
+
+
+
+micromonora	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+saccharopolyra	halotolerans
+
+
+
+
+
+streptomyces	griseorubens
+streptomyces	
+streptomyces	
+
+
+
+
+
+
+actinomadura	
+
+
+
+
+atopobium	fossor
+
+
+
+bacterium	68-1-3
+
+collinsella	aerofaciens
+collinsella	bouchesdurhonensis
+collinsella	ihuae
+collinsella	intestinalis
+collinsella	phocaeensis
+collinsella	
+collinsella	tanakaei
+bacterium
+
+
+cryptobacterium	curtum
+
+eggerthella	lenta
+
+
+
+
+
+raoultibacter	massiliensis
+raoultibacter	timonensis
+
+slackia	heliotrinireducens
+slackia	piriformis
+
+
+
+
+
+
+
+
+
+
+
+nitriliruptor	alkaliphilus
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sedis
+sedis	rhodothermaceae
+sedis	rhodothermaceae
+
+
+55	9
+
+
+
+bacterium	djf
+bacterium	sv444
+
+bacteroides	acidifaciens
+bacteroides	caccae
+bacteroides	caecigallinarum
+bacteroides	clarus
+bacteroides	coprocola
+bacteroides	coprophilus
+bacteroides	dorei
+bacteroides	eggerthii
+bacteroides	fluxus
+bacteroides	fragilis
+bacteroides	helcogenes
+bacteroides	ihuae
+bacteroides	intestinalis
+bacteroides	massiliensis
+bacteroides	mediterraneensis
+bacteroides	nordii
+bacteroides	oleiciplenus
+bacteroides	ovatus
+bacteroides	paurosaccharolyticus
+bacteroides	plebeius
+bacteroides	propionicifaciens
+bacteroides	rodentium
+bacteroides	salanitronis
+bacteroides	
+bacteroides	
+bacteroides	
+bacteroides	
+bacteroides	
+bacteroides	
+bacteroides	
+bacteroides	
+bacteroides	
+bacteroides	
+bacteroides	
+bacteroides	
+bacteroides	
+bacteroides	
+bacteroides	
+bacteroides	stercorirosoris
+bacteroides	stercoris
+bacteroides	thetaiotaomicron
+bacteroides	timonensis
+bacteroides	uniformis
+bacteroides	vulgatus
+
+mediterranea	massiliensis
+
+
+
+coprobacter	fastidiosus
+
+
+
+
+
+bacterium	h4
+
+
+butyricimonas	paravirosa
+butyricimonas	
+butyricimonas	synergistica
+butyricimonas	virosa
+
+culturomica	massiliensis
+
+odoribacter	anchnicus
+
+
+
+bacterium	s9
+vestibaculum
+
+
+
+gabonibacter	massiliensis
+gabonibacter	timonensis
+
+
+porphyromonas	endodontalis
+porphyromonas	
+
+bacterium	djf
+bacterium	djf
+bacterium	djf
+bacterium	marseille-p2826
+bacterium	s4-a16
+
+alloprevotella	
+alloprevotella	tannerae
+
+marseilla	massiliensis
+
+massiliprevotella	massiliensis
+
+paraprevotella	clara
+paraprevotella	xylaniphila
+
+prevotella	amnii
+prevotella	baroniae
+prevotella	bergensis
+prevotella	bivia
+prevotella	brevis
+prevotella	buccae
+prevotella	copri
+prevotella	denticola
+prevotella	enoeca
+prevotella	falsenii
+prevotella	genomo
+prevotella	genomo
+prevotella	ihumii
+prevotella	intermedia
+prevotella	marshii
+prevotella	micans
+prevotella	multisaccharivorax
+prevotella	nigrescens
+prevotella	oris
+prevotella	pallens
+prevotella	
+prevotella	
+prevotella	
+prevotella	
+prevotella	
+prevotella	
+prevotella	
+prevotella	
+prevotella	
+prevotella	
+prevotella	
+prevotella	
+prevotella	
+prevotella	stercorea
+
+prevotellamassilia	timonensis
+
+
+
+alistipes	finegoldii
+alistipes	ihumii
+alistipes	obesi
+alistipes	onderdonkii
+alistipes	putredinis
+alistipes	senegalensis
+alistipes	
+alistipes	
+alistipes	
+
+
+rikenella	microfusus
+
+
+
+parabacteroides	chinchillae
+parabacteroides	distasonis
+parabacteroides	faecis
+parabacteroides	gordonii
+parabacteroides	
+parabacteroides	
+parabacteroides	
+parabacteroides	
+
+
+
+
+
+
+
+carboxylicivirga	mesophila
+
+labilibacter	marinus
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dinghuibacter	silviterrae
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cardinium
+
+
+
+
+
+
+
+
+bacterium	kor
+
+
+fibrisoma	limi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rf14
+
+
+
+
+
+lishizhenia	tianjinensis
+
+
+
+bacterium	imcc2672
+
+
+owenweeksia	hongkongensis
+
+phaeocystidibacter	luteus
+phaeocystidibacter	marisrubri
+
+bacterium	mar
+bacterium	uj101
+
+
+
+
+
+aureimarina	marisflavi
+
+
+aureitalea	marina
+
+
+
+
+
+
+
+coccinistipes	vermicola
+
+
+
+
+
+
+
+gillisia	illustrilutea
+
+
+
+lutibacter	flavus
+lutibacter	maritimus
+
+
+
+
+
+
+
+
+
+
+robertkochia	marina
+
+robiginitalea	myxolifaciens
+
+salinimicrobium	gaetbulicola
+
+taeania	maliponensis
+
+
+
+
+
+
+
+
+
+
+
+portibacter	lacus
+
+
+lewinella	nigricans
+
+
+aquirestis
+
+
+
+br5
+
+
+
+
+
+solitalea	canadensis
+
+
+
+
+
+
+aliifodinibius	
+
+
+gracilimonas	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zag	111
+
+
+
+
+
+
+
+canine	oral
+oral	clone
+oral	clone
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+chloroploca
+
+
+
+
+
+
+
+
+
+
+
+
+nitrolancea	hollandica
+
+
+
+
+
+
+	96/26
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+44	15
+
+
+
+
+
+
+
+
+
+
+
+morbillorum
+sanguinis
+
+
+alicyclobacillus	fodiniaquatilis
+
+
+
+
+bacillus	subtilis
+
+
+
+
+
+
+
+
+x.	incertae
+
+
+listeria	monocytogenes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hy-36-1
+
+
+abiotrophia	defectiva
+
+
+dolosicoccus	paucivorans
+
+
+
+
+
+
+
+
+
+lacticigenium	naphtae
+
+
+
+
+
+
+
+
+
+
+lactobacillus	agilis
+lactobacillus	fermentum
+lactobacillus	gasseri
+lactobacillus	rogosae
+lactobacillus	ruminis
+
+pediococcus	pentosaceus
+
+
+
+
+
+
+lactococcus	garvieae
+
+streptococcus	anginosus
+streptococcus	cristatus
+streptococcus	danieliae
+streptococcus	equi
+streptococcus	mutans
+streptococcus	parasanguinis
+streptococcus	pneumoniae
+streptococcus	sanguinis
+streptococcus	sobrinus
+streptococcus	
+streptococcus	
+streptococcus	
+streptococcus	suis
+
+
+culture	clone
+
+21-4c
+24-4c
+40-4c
+42	27
+chkci001
+chkci006
+cieaf	016
+cieaf	019
+cieaf	020
+cieaf	026
+djf	b152
+firm	08
+ka00274
+marseille-p2846
+nk3b98
+canine	oral
+enrichment	culture
+oral	taxon
+
+
+l1-810
+l2-10
+l2-12
+m21/2
+sm4/1
+t2-145
+
+massiliensis
+
+timonensis
+
+plautii
+
+ureilytica
+
+timonensis
+polyra
+
+pectinivora
+massiliensis
+
+capillosus
+
+
+
+
+
+
+beduinibacterium	massiliense
+
+christensenella	massiliensis
+christensenella	timonensis
+
+bacterium	djf
+bacterium	djf
+bacterium	djf
+bacterium	sh032
+bacterium	sk061
+
+alkaliphilus	metalliredigens
+alkaliphilus	
+
+
+
+
+butyricicoccus	faecihominis
+butyricicoccus	pullicaecorum
+
+
+
+arthromitus
+arthromitus	candidatus
+
+
+
+clostridium	baratii
+clostridium	bornimense
+clostridium	butyricum
+clostridium	carnis
+clostridium	chauvoei
+clostridium	colicanis
+clostridium	fallax
+clostridium	neonatale
+clostridium	perfringens
+clostridium	sardiniense
+clostridium	septicum
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+clostridium	
+falcatimonas	natans
+
+fervidicella	metallireducens
+
+fonticella	tunisiensis
+
+hungatella	hathewayi
+
+
+lactonifactor	longoviformis
+
+massilioclostridium	coli
+
+
+
+
+xii.	incertae
+xii.	incertae
+xii.	incertae
+xii.	incertae
+xiii.	incertae
+xiii.	incertae
+xiii.	incertae
+xiii.	incertae
+xiii.	incertae
+xiii.	incertae
+xiii.	incertae
+xvii.	incertae
+xvii.	incertae
+
+
+
+
+bacterium	chkci004
+oral	clone
+
+
+
+
+eubacterium	coprostanoligenes
+eubacterium	oxidoreducens
+eubacterium	plexicaudatum
+eubacterium	pyruvativorans
+eubacterium	ramulus
+eubacterium	rangiferina
+eubacterium	ruminantium
+eubacterium	
+eubacterium	uniforme
+eubacterium	xylanophilum
+[eubacterium]	eligens
+
+
+
+
+
+
+
+bacterium	19gly4
+bacterium	1
+bacterium	28-4
+bacterium	3-1
+bacterium	a4
+bacterium	at6
+bacterium	bty6
+bacterium	djf
+bacterium	djf
+bacterium	djf
+bacterium	dw17
+bacterium	dw67
+bacterium	e7
+bacterium	tf01-11
+bacterium	twa4
+bacterium	xbb1006
+bacterium	canine
+bacterium	canine
+bacterium	oral
+rectale
+
+
+
+
+anaerobium	acetethylicum
+
+
+
+anaerostipes	butyraticus
+anaerostipes	rhamnosivorans
+anaerostipes	
+
+anaerotaenia	torta
+
+blautia	caecimuris
+blautia	coccoides
+blautia	glucerasea
+blautia	hydrogenotrophica
+blautia	massiliensis
+blautia	obeum
+blautia	producta
+blautia	
+blautia	
+blautia	
+blautia	stercoris
+[ruminococcus]	gnavus
+[ruminococcus]	torques
+
+butyrivibrio	crossotus
+butyrivibrio	
+
+catonella	
+
+cellulosilyticum	
+
+coprococcus	catus
+coprococcus	eutactus
+
+cuneatibacter	caecimuris
+
+candidatus	dorea
+dorea	formicigenerans
+dorea	longicatena
+
+
+fusicatenibacter	saccharivorans
+
+herbinix	hemicellulosilytica
+
+
+
+lachnobacterium	
+
+lachnoclostridium	phytofermentans
+[clostridium]	aldenense
+[clostridium]	bolteae
+[clostridium]	lavalense
+[clostridium]	polysaccharolyticum
+[clostridium]	populeti
+[clostridium]	saccharolyticum
+
+
+
+marvinbryantia	formatexigens
+
+
+
+murimonas	intestini
+
+niameybacter	massiliensis
+
+
+pseudobutyrivibrio	
+
+robinsoniella	peoriensis
+
+roseburia	faecis
+roseburia	hominis
+roseburia	inulinivorans
+roseburia	
+roseburia	
+roseburia	
+
+sellimonas	intestinalis
+
+robacterium	olearium
+
+
+syntrophococcus	
+syntrophococcus	sucromutans
+
+tyzzerella	nexilis
+tyzzerella	
+
+bacterium	zagget4
+marseillibacter	massiliensis
+
+oscilibacter	massiliensis
+oscillibacter	
+oscillibacter	
+
+dichloromethanomonas
+
+
+
+
+
+
+
+
+
+
+bacterium	va2
+
+asaccharora	irregularis
+
+clostridioides	difficile
+
+filifactor	alocis
+
+
+
+
+
+peptostreptococcus	anaerobius
+
+
+romboutsia	lituseburensis
+romboutsia	
+
+
+
+
+bacterium
+bacterium	d5
+bacterium	marseille-p2935
+bacterium	marseille-p3449
+bacterium	marseille-p3738
+bacterium	cv2
+
+acetanaerobacterium	elongatum
+
+acetivibrio	ethanolgignens
+
+
+anaerofilum	
+
+anaeromassilibacillus	senegalensis
+
+anaerotruncus	rubiinfantis
+
+angelakisella	massiliensis
+soleaferrea
+soleaferrea	candidatus
+
+caproiciproducens	galactitolivorans
+
+
+faecalibacterium	prausnitzii
+
+
+fournierella	massiliensis
+gorbachella	massiliensis
+
+
+
+negativibacillus	massiliensis
+neglecta	timonensis
+
+oscillora	guilliermondii
+
+papillibacter	cinnamivorans
+
+
+pygmaiobacter	massiliensis
+
+[clostridium]	leptum
+[eubacterium]	siraeum
+
+ruminococcus	albus
+ruminococcus	bicirculans
+ruminococcus	bromii
+ruminococcus	flavefaciens
+ruminococcus	gauvreauii
+ruminococcus	lactaris
+ruminococcus	
+ruminococcus	
+ruminococcus	
+ruminococcus	
+ruminococcus	
+ruminococcus	
+ruminococcus	
+ruminococcus	
+ruminococcus	
+ruminococcus	
+ruminococcus	
+ruminococcus	
+ruminococcus	
+ruminococcus	
+ruminococcus	
+ruminococcus	
+
+
+
+
+
+genomo	p1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+allobaculum	stercoricanis
+
+stoquefichus
+stoquefichus	candidatus
+
+catenibacterium	mitsuokai
+
+
+
+
+
+eggerthia	catenaformis
+
+erysipelatoclostridium	ramosum
+erysipelatoclostridium	
+[clostridium]	roforme
+
+
+
+
+
+kandleria	vitulina
+
+
+merdibacter	massiliensis
+
+solobacterium	moorei
+
+traorella	massiliensis
+
+turicibacter	sanguinis
+
+
+
+
+
+
+
+
+acidaminococcus	massiliensis
+acidaminococcus	
+acidaminococcus	timonensis
+
+phascolarctobacterium	faecium
+phascolarctobacterium	
+phascolarctobacterium	
+
+
+
+
+
+
+
+megamonas	funiformis
+megamonas	hypermegale
+megamonas	rupellensis
+
+
+
+
+selenomonas	bovis
+selenomonas	genomo
+selenomonas	noxia
+selenomonas	
+
+
+
+
+
+
+
+
+
+bacterium	ka00182
+bacterium	canine
+
+allisonella	histaminiformans
+
+
+
+dialister	invisus
+dialister	pneumosintes
+dialister	propionicifaciens
+dialister	
+dialister	
+dialister	
+dialister	
+dialister	succinatiphilus
+
+megaaera	cerevisiae
+megaaera	micronuciformis
+megaaera	
+
+
+veillonella	atypica
+veillonella	denticariosi
+veillonella	magna
+veillonella	rodentium
+veillonella	rogosae
+veillonella	
+veillonella	
+veillonella	
+veillonella	
+
+
+
+
+
+
+
+
+
+
+
+anaerococcus	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bacterium	f3
+
+cetobacterium	somerae
+cetobacterium	
+
+fusobacterium	equinum
+fusobacterium	gastrosuis
+fusobacterium	necrophorum
+fusobacterium	nucleatum
+fusobacterium	periodonticum
+fusobacterium	
+
+ilyobacter	polytropus
+
+
+
+
+leptotrichia	
+leptotrichia	
+
+
+
+streptobacillus	hongkongensis
+
+
+
+
+
+
+
+
+gemmatirosa	kalamazoonesis
+
+
+
+
+
+
+
+ignavibacterium	album
+
+
+
+
+
+
+
+
+bacterium	nml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+proteobacterium	himb100
+
+
+
+1c	of
+
+
+
+
+
+
+bacterium	otsz
+
+
+
+
+
+
+
+candidatus	captivus
+candidatus	paracaedibacter
+
+bealeia
+
+
+
+
+
+kordiimonas	sediminis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pelagibacter
+pelagibacter	candidatus
+pelagibacter	candidatus
+
+hsf11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bacterium	wx185
+
+
+
+
+
+
+
+
+rhodoplanes	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lutibaculum	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ponticaulis	koreensis
+
+bacterium	r11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rhodovulum	
+
+roseicyclus	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rhodopila	globiformis
+
+
+
+
+alysioaera
+
+
+aestuariira	
+
+
+constrictibacter	antarcticus
+
+
+
+
+limibacillus	halophilus
+
+
+
+
+
+
+
+
+
+
+
+
+chlamys
+
+
+
+
+cryptoprodotis
+megaira
+
+
+
+
+
+
+
+
+
+hankyongella	aquatica
+
+
+
+
+0001003-n18
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lautropia	mirabilis
+
+
+
+
+
+
+
+
+
+
+
+delftia	acidovorans
+
+
+
+melaminivora	alkalimesophila
+
+
+
+
+
+
+
+
+
+
+oxalobacter	formigenes
+
+
+dakarella	massiliensis
+
+duodenibacillus	massiliensis
+
+parasutterella	excrementihominis
+parasutterella	secunda
+
+sutterella	parvirubra
+sutterella	
+sutterella	
+sutterella	wadsworthensis
+
+
+
+
+
+
+
+
+
+
+
+
+
+eikenella	corrodens
+
+
+neisseria	elongata
+
+
+
+
+nitrotoga
+
+
+
+
+methylopumilus
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bacterium	enrichment
+
+
+
+
+
+
+
+
+full	58
+1	endosymbiont
+5451
+
+culture	clone
+
+
+
+
+
+
+desulfocarbo	indianensis
+
+
+magnetananas
+
+
+desulfatiferula	berrensis
+
+
+
+
+
+desulfobacterium	indolicum
+
+desulfobacula	
+
+
+
+
+
+
+
+
+
+electrothrix
+
+
+
+
+
+
+desulfotalea	arctica
+desulfotalea	
+
+
+
+
+
+
+bacterium	marseille-p3669
+
+bilophila	
+bilophila	wadsworthia
+
+
+desulfovibrio	litoralis
+desulfovibrio	piger
+desulfovibrio	
+desulfovibrio	
+desulfovibrio	
+desulfovibrio	
+desulfovibrio	
+
+mailhella	massiliensis
+
+
+
+
+desulfuromusa	ferrireducens
+
+malonomonas	rubra
+
+
+
+
+
+
+
+enrichment	culture
+
+
+anaeromyxobacter	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+campylobacter	canadensis
+campylobacter	concisus
+
+
+
+
+helicobacter	pylori
+
+
+
+
+symbiont
+
+
+
+of	menida
+
+
+
+
+
+
+
+
+
+
+
+
+
+sulfuricaulis	limicola
+
+
+
+
+
+
+
+
+
+anaerobiorillum	
+
+
+succinatimonas	hippei
+
+succinivibrio	dextrinosolvens
+
+
+
+eburnea
+
+
+
+
+
+
+alkalimarinus	sediminis
+
+
+
+
+
+marinobacter	mobilis
+
+
+
+
+litorilituus	sediminis
+
+thalassomonas	
+
+
+
+
+
+idiomarina	
+
+
+
+
+
+pseudoalteromonas	ruthenica
+pseudoalteromonas	
+
+
+
+
+
+
+
+percuibacter	marinus
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+haliea	
+haliea	
+
+
+
+marimicrobium	arenosum
+
+
+
+
+
+
+
+
+dasania	marina
+
+
+
+
+tenderia
+
+
+
+
+
+
+
+
+
+
+
+sulfuriflexus	mobilis
+
+
+
+
+
+
+
+
+
+
+
+woeseia	oceani
+
+symbiont	of
+
+
+
+bacterium	gb8
+atlantibacter	hermannii
+
+regiella
+stammerula
+
+citrobacter	freundii
+
+
+enterobacter	asburiae
+enterobacter	cloacae
+enterobacter	
+enterobacter	
+
+escherichia	coli
+franconibacter	pulveris
+
+
+klebsiella	pneumoniae
+klebsiella	
+klebsiella	
+klebsiella	
+
+kosakonia	oryzae
+
+salmonella	enterica
+salmonella	
+
+shigella	dysenteriae
+shigella	sonnei
+
+
+buchnera	aphidicola
+
+erwinia	
+erwinia	teleogrylli
+
+pantoea	
+pantoea	
+
+
+edwardsiella	tarda
+
+
+
+
+
+
+
+
+brenneria	alni
+
+
+pectobacterium	carotovorum
+pectobacterium	
+
+
+
+serratia	marcescens
+
+
+
+
+
+
+
+berkiella
+
+coxiella	endosymbiont
+
+
+
+
+
+
+
+methylora
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alcanivorax	dieselolei
+
+
+
+endozoicomonas	
+
+
+
+
+portiera
+
+
+
+
+
+
+litoricola	marina
+
+bacterioplanes	sanyensis
+
+
+
+litoribrevibacter	albus
+
+
+marinomonas	aquimarina
+
+
+motiliproteus	sediminis
+
+
+
+
+
+
+
+
+
+
+oleiphilus	messinensis
+
+
+
+
+salinirillum	marinum
+
+
+
+
+
+
+taxon	7
+
+actinobacillus	equuli
+
+aggregatibacter	aphrophilus
+
+haemophilus	genomo
+haemophilus	haemolyticus
+haemophilus	parainfluenzae
+haemophilus	pittmaniae
+haemophilus	
+haemophilus	torum
+
+
+
+rodentibacter	pneumotropicus
+
+
+
+acinetobacter	radioresistens
+acinetobacter	
+
+
+
+
+
+
+
+
+
+pseudomonas	brassicacearum
+
+
+
+
+
+
+
+francisella	
+
+
+
+
+
+
+
+isobeggiatoa
+maribeggiatoa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bacteriovorax	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rochaeta	cellobiosiphila
+rochaeta	
+
+treponema	porcinum
+treponema	
+
+
+
+
+
+tammella
+
+
+
+
+synergistes	genomo
+synergistes	jonesii
+
+
+	hr1
+	hr2
+
+
+
+
+
+phytoplasma
+
+
+
+
+
+
+
+
+
+roplasma	lampyridicola
+roplasma	
+
+
+
+mycoplasma	sualvi
+
+
+
+
+
+
+
+
+
+
+43	26
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+udaeobacter
+
+
+
+
+
+akkermansia	muciniphila
+
+
+3
+3	bacterium
+3	pedoaera
+
+
+haloferula	helveola
+
+luteolibacter	algae
+
+
+verrucomicrobium	
+
+
+chloroplast
+
+
+
+eukaryota
+
+japonica
+
+neolecta
+
+malassezia
+
+
+
+
+
+
+
+mitochondria
+
+
+
+

@@ -1,0 +1,3 @@
+#Afin de comparer les fichiers entre eux, il va falloir qu'ils soient dans des formats comparables.
+awk '{print $1}' ERP111526_taxonomy_abundances_SSU_v4.1.ERP111526_taxonomy_abundances_SSU_v4 > coloumn_names.txt
+# sed 's/[ecrire_le_séparateur]/\n/g'[nom_du_fichier] > [nom_du_nouveau_fichier.txt]
