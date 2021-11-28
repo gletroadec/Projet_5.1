@@ -1,0 +1,5 @@
+%%R setwd(dir = "Datas_Chinese.tsv")
+%%R Test <- read.delim("Datas_Chinese.tsv", header=TRUE, row.names=1)
+%%R Test1 <- t(Test)
+%%R Test2 <- data.frame(Test1)
+%%R Test3 <- write.table(Test2, file='Datas_Chinese2.tsv', quote=FALSE, sep='  ')
