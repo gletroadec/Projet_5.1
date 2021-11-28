@@ -1,7 +1,7 @@
-#Afin de comparer les fichiers entre eux, il va falloir qu'ils soient dans des formats comparables.
-
+#Normalizing our dataset for comparison with Carveme's dataset
 
 cut -f1 Data/Chinese_data/ERP111526_taxonomy_abundances_SSU_v4.1.tsv > Data/4_/colomn_names.txt
+
 
 
 #### For Lunix terminals :######
@@ -47,3 +47,12 @@ sed -i '' 's/'[0-9]'//g' Data/4_/colomns_7_8
 sed -i '' '/^[[:space:]]*$/d' Data/4_/colomns_7_8.txt
 rm Data/4_/colomn_names.txt
 rm Data/4_/lowered_names.txt
+
+#### Normalizing Carvama model lists
+
+cut -f3 Data/4_/model_list.tsv > Data/4_/models_list_purified.csv
+sed -i '' "s/[(][^)]*[)]/()/g" Data/4_/models_list_purified.csv
+sed -i '' 's/' '/_/g' models_list_purified.csv
+sed -i '' 's/[[:space:]]/_/g' Data/4_/models_list_purified.csv
+sed -i '' 's/^\([^_]*\(_[^_]*\)\{1\}\).*/\1/' Data/4_/models_list_purified.csv
+sed -i '' 's/_/\t/g' Data/4_/models_list_purified.csv
