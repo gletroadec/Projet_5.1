@@ -1,6 +1,7 @@
 # script for using FlashWeave
 
 # type closed bracket ( ] ) to open pkg installation options
+]
 add FlashWeave
 
 #tout en Julia>
