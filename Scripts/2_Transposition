@@ -1,3 +1,4 @@
+#Used on Studio
 setwd(dir = "/Projet_5.1")
 Test <- read.delim("/Projet_5.1/Data/1_Chinese_data/ERP111526_taxonomy_abundances_SSU_v4.1.tsv", header=TRUE, row.names=1)
 Test1 <- t(Test)
