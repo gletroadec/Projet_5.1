@@ -47,7 +47,7 @@ for i in range(len(Testlist)) :
             y_common_flux_basis=y_common_flux_basis.append(fva_modely.secretion_flux.loc[fva_modely.secretion_flux['metabolite'] == d])
             Common_metabolites_y_flux=y_common_flux_basis
             Common_metabolites_y_flux['y_Flux_type'][n]='secretion'
-    n+=1
+        n+=1
 #On se retrouve alors avec deux tables caractérisants les flux de chaques métabolites au sein de chaque couples, il est maintenant possible de les concaténer pour n'obtenir qu'une table
     Common_metabolites_y_flux=Common_metabolites_y_flux.rename(columns={"flux": "y_flux", "minimum": "y_minimum", "maximum":"y_maximum"})
     Common_metabolites_x_flux=Common_metabolites_x_flux.rename(columns={"flux": "x_flux", "minimum": "x_minimum", "maximum":"x_maximum"})
@@ -59,20 +59,23 @@ for i in range(len(Testlist)) :
     Range_y=interval([Common_metabolite_flux['y_minimum'][1],Common_metabolite_flux['y_maximum'][1]])
 
     Interaction_table= pd.DataFrame(columns=Common_metabolite_flux.columns)
-        for i in range(len(Common_metabolite_flux)):
-        Range_x=interval([Common_metabolite_flux['x_minimum'][i],Common_metabolite_flux['x_maximum'][i]])
-        Range_y=interval([Common_metabolite_flux['y_minimum'][i],Common_metabolite_flux['y_maximum'][i]])
-        if not Range_x & Range_y and 0 in interval(Range_x[0][1],Range_y[0][0]):
-            Interaction_table.append(Common_metabolite_flux.iloc[i])
+    for f in range(len(Common_metabolite_flux)):
+      Range_x=interval([Common_metabolite_flux['x_minimum'][f],Common_metabolite_flux['x_maximum'][f]])
+      Range_y=interval([Common_metabolite_flux['y_minimum'][f],Common_metabolite_flux['y_maximum'][f]])
+      if not Range_x & Range_y and 0 in interval(Range_x[0][1],Range_y[0][0]):
+        Interaction_table.append(Common_metabolite_flux.iloc[f])
     if len(Interaction_table) > 0 :
-        Interaction_table.to_csv('/Projet_5.1/Data/Interaction/FVA_interaction_'+Testlist[i][0].lower()+'_vs_'+Testlist[i][1].lower()+'.csv')
+        Interaction_table.to_csv('/content/drive/MyDrive/Bioinformatrique 2/DATAs/FVA/'+Testlist[i][0].lower()+'_vs_'+Testlist[i][1].lower()+'.csv')
 
 
 
-    Interaction_table= pd.DataFrame(columns=Common_metabolite_flux.columns)
-    Flux_range=interval([Common_metabolite_flux['x_flux'][i],Common_metabolite_flux['y_flux'][i]]])
-    if not Range_x & Range_y and 0 in interval(Range_x[0][1],Range_y[0][0]):
-            Interaction_table.append(Common_metabolite_flux.iloc[i])
+    Interaction_table_=pd.DataFrame(columns=Common_metabolite_flux.columns)
+    Interaction_table_flux=Interaction_table
+    for flux_interval in range(len(Common_metabolite_flux)) :
+      if Common_metabolite_flux['x_flux'][flux_interval] and Common_metabolite_flux['y_flux'][flux_interval] != 0 :
+        Flux_range=interval([Common_metabolite_flux['x_flux'][flux_interval],Common_metabolite_flux['y_flux'][flux_interval]])
+        if 0 in Flux_range :
+          Interaction_table_flux=Interaction_table_flux.append(Common_metabolite_flux.iloc[flux_interval])
     if len(Interaction_table) > 0 :
         Interaction_table.to_csv('/Projet_5.1/Data/Interaction/FVA_interaction_'+Testlist[i][0].lower()+'_vs_'+Testlist[i][1].lower()+'.csv')
 
