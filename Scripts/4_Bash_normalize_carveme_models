@@ -1,3 +1,18 @@
+#Normalizing our dataset for comparison with Carveme's dataset
+
+cut -f1 Data/Chinese_data/ERP111526_taxonomy_abundances_SSU_v4.1.tsv > Data/4_/colomn_names.txt
+
+#### Normalizing Carvama model lists
+
+cut -f3 Data/4_/model_list.tsv > Data/4_/models_list_purified.csv
+sed -i '' "s/[(][^)]*[)]/()/g" Data/4_/models_list_purified.csv
+sed -i '' 's/' '/_/g' models_list_purified.csv
+sed -i '' 's/[[:space:]]/_/g' Data/4_/models_list_purified.csv
+sed -i '' 's/^\([^_]*\(_[^_]*\)\{1\}\).*/\1/' Data/4_/models_list_purified.csv
+sed -i '' 's/_/\t/g' Data/4_/models_list_purified.csv
+
+#### Exctract all ".xml.gz" files from CarveMe into one empty folder.
+
 find '/content/drive/MyDrive/Bioinformatrique 2/DATAs/Data_carveme/embl_gems-master/models' -mindepth 3 -type f -print -exec mv {} '/content/drive/MyDrive/Bioinformatrique 2/DATAs/Data_carveme/Extracted_complete' \;
 for filename in *xml.gz; do newname=`echo $filename | sed 's/^\([^_]*\(_[^_]*\)\{1\}\).*/\1/'`; mv $filename $newname; done
 for filename in *; do newname=`echo $filename | sed 's/$/.xml.gz/g'`; mv $filename $newname; done
