@@ -1,0 +1,4 @@
+,metabolite,reaction,x_flux,x_minimum,x_maximum,x_Flux_type,y_flux,y_minimum,y_maximum,y_Flux_type
+9,h2o_e,EX_h2o_e,385.5983979332033,-1000.0,1000.0,uptake,-583.5738267683993,-1000.0,1000.0,secretion
+11,h_e,EX_h_e,34.113707463924705,-1000.0,1000.0,uptake,-72.3868241478202,-1000.0,1000.0,secretion
+24,val__L_e,EX_val__L_e,13.304576058004065,11.974118452203681,98.79880739168388,uptake,-357.359184199652,-994.1613027020097,1000.0,secretion

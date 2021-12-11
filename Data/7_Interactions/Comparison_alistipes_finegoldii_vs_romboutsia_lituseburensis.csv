@@ -1,0 +1,4 @@
+,metabolite,reaction,x_flux,x_minimum,x_maximum,x_Flux_type,y_flux,y_minimum,y_maximum,y_Flux_type
+11,glyclt_e,EX_glyclt_e,0.002863703745609226,-35.90770491878288,0.0028637037456094028,uptake,-0.033974778965884425,-184.44945690461472,599.9694226989227,secretion
+50,h2o_e,EX_h2o_e,-289.2004236782943,-1000.0,1000.0,secretion,1000.0,-1000.0,1000.0,uptake
+51,h_e,EX_h_e,-760.4986762064044,-1000.0,1000.0,secretion,1000.0,-1000.0,1000.0,uptake

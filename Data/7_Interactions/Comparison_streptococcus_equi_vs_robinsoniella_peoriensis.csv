@@ -1,0 +1,2 @@
+,metabolite,reaction,x_flux,x_minimum,x_maximum,x_Flux_type,y_flux,y_minimum,y_maximum,y_Flux_type
+10,fe2_e,EX_fe2_e,0.11706919597796418,0.0,0.1170691959779639,uptake,-106.00267619523005,-800.522892463687,8.298303065406731,secretion

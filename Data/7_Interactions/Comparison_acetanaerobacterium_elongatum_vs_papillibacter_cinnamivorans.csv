@@ -1,0 +1,3 @@
+,metabolite,reaction,x_flux,x_minimum,x_maximum,x_Flux_type,y_flux,y_minimum,y_maximum,y_Flux_type
+1,acald_e,EX_acald_e,415.46938045159436,-1000.0,1000.0,uptake,-374.8362543610035,-1000.0,0.0,secretion
+73,ura_e,EX_ura_e,-656.3601749526803,-1000.0,-383.6976134471263,secretion,6.118198823129215,0.0,45.982569417007426,uptake
