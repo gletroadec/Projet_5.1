@@ -11,7 +11,6 @@ Testlist = list(Test_graph23.edges)
 for i in range(len(Testlist)):
   oui=0
   oui=[]
-  #oui=list(Testlist[i])
   oui=Testlist[i]
   oui=list(oui)
   for e in range(len(oui)):
