@@ -1,3 +1,5 @@
+# necessary packages 
+
 import pandas as pd                         #Used to work with DataFrame
 !pip install cobra
 import cobra.test                           #Used to work with models
