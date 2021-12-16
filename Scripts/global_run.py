@@ -1,35 +1,76 @@
-#### Necessary packages ####
-!pip install cobra
-!pip install pyinterval
-!pip install pandas
-!pip install networkx 
+#!/usr/bin/env python
+# coding: utf-8
 
+# In[1]:
+
+
+#### Necessary packages ####
+get_ipython().system('pip install cobra')
+get_ipython().system('pip install pyinterval')
+get_ipython().system('pip install pandas')
+get_ipython().system('pip install networkx ')
+get_ipython().system('pip install clint')
+get_ipython().system('pip install Julia')
 import pandas as pd                         #Used to work with DataFrame
 import cobra.test                           #Used to work with models
 import networkx as nx                       #Used to work with Graphs                  
 from interval import interval, inf, imath   #Used to work with intervals
+import os
+import requests
+import zipfile
 
+import julia
+
+
+# In[2]:
+
+
+PATH = input("Specify your input path")
+os.chdir(PATH)
+os.mkdir("Data")
+os.mkdir("Data/Transposed_.tsv_dataset")
+os.mkdir("Data/GML")
+os.mkdir("Data/Normalized_names")
+os.mkdir("Data/Graph_attribute")
+os.mkdir("Data/FVA")
+os.mkdir("Data/Interactions")
+os.mkdir("Data/CarveMe")
+
+os.chdir("Data/CarveMe")
+
+url = "https://www.dropbox.com/s/4t9mnbuf9dqpoml/Extracted_complete.zip?dl=1"
+r = requests.get(url, allow_redirects=True)
+
+open('Extracted_complete.zip', 'wb').write(r.content)
+
+
+with zipfile.ZipFile("Extracted_complete.zip","r") as zip_ref:
+    zip_ref.extractall()
+
+os.remove("Extracted_complete.zip")
+
+os.chdir(PATH)
+    
 #### TRANSPOSITION ####
 
 import pandas as pd
-df = pd.read_csv("Projet_5.1/Data/1_Chinese_data/ERP111526_taxonomy_abundances_SSU_v4.1.tsv", sep='\t')
+df = pd.read_csv("ERP111526_taxonomy_abundances_SSU_v4.1.tsv", sep='\t')
 df2=df.T
-print(df2)
-df2.to_csv("Projet_5.1/Data/2_Transposed .tsv dataset/Chinese_data.tsv", sep="\t")
+#print(df2)
+os.chdir("Data/Transposed_.tsv_dataset")
+df2.to_csv("data_tranposed.tsv", sep='\t')
+
+os.chdir(PATH)
 
 #### JULIA ####
-
-using FlashWeave
-data_path = "Projet_5.1/Data/2_Transposed .tsv dataset/Chinese_data.tsv"
-netw_results = learn_network(data_path, sensitive=true, heterogeneous=false)
-G = graph(netw_results)
-
-save_network("Projet_5.1/Data/3_GML/network_output.gml", netw_results)
+get_ipython().system('echo You now have to generate a gml with julia using the Flashweave package. Please refer to the following instructions :https://github.com/meringlab/FlashWeave.jl')
+PATH2 = input("Please enter the path the gml file")
 
 #### Python ####
 
 #Python script for comparing matching names in between the dataset's list and Carveme's dataset ####
-model = pd.read_csv('/Projet_5.1/Data/4_Normalized_names/models_list_purified.csv', sep='\t') #Load the model list in model
+os.chdir(PATH)
+model = pd.read_csv('models_list_purified.csv', sep='\t') #Load the model list in model
 #Create list containing all models names
 model["Name"] = model["organism"].astype(str)+ '_' + model["name"]
 model = model['Name']
@@ -43,8 +84,9 @@ for i in range(len(model_pattern)) :
 
 
 #Load the Graph obtained with JULIA and a copy to work with
-Study_Graph = nx.read_gml('Projet_5.1/Data/DATAs/3_GML/network_output.gml')
-Study_Graph_copy = nx.read_gml('Projet_5.1/Data/DATAs/3_GML/network_output.gml')
+os.chdir(PATH2)
+Study_Graph = nx.read_gml('network_output.gml')
+Study_Graph_copy = nx.read_gml('network_output.gml')
 
 #The following lines get rid of nodes with no associated models
 Study_Model_list=0
@@ -84,8 +126,9 @@ for i in G.nodes :
         if model in i :
             G.nodes[i]["Type"]=True
 #Write the new graph
-nx.write_gml(G, 'Projet_5.1/Data/DATAs/6_Graph_with_attribute/Attribute_Graph.gml', stringizer=None)
-
+os.chdir("Data/Graph_attribute")
+nx.write_gml(G, 'Attribute_Graph.gml', stringizer=None)
+os.chdir(PATH)
 #Creation of a list of micro-organisms couple (each edge imply 2 micro-organsims)
 #This list is dealing with the model names
 Edge_list = list(Study_Graph_copy.edges)
@@ -102,9 +145,10 @@ for Edge in range(len(Edge_list)):
 
 #Goal of thes lines : running FVA on each MO (that have a model associated) and compare the resulting flux between members of an edge
 #The compared fluxes concerns common metabolites potentially uptked or secreted by MO of an edge
+os.chdir(PATH)
 for i in range(len(Edge_list)) :
-    x = cobra.io.read_sbml_model('Projet_5.1/Data/Carveme/Extracted_complete/' + Edge_list[i][0].lower() + '.xml.gz')
-    y = cobra.io.read_sbml_model('Projet_5.1/Data/Carveme/Extracted_complete/' + Edge_list[i][1].lower() + '.xml.gz')
+    x = cobra.io.read_sbml_model( 'Data/Carveme/Extracted_complete/' + Edge_list[i][0].lower() + '.xml.gz')
+    y = cobra.io.read_sbml_model( 'Data/Carveme/Extracted_complete/' + Edge_list[i][1].lower() + '.xml.gz')
 #Loading FVA
     fva_modelx = x.summary(fva=0.9) #The fva is here set at 0.9 but the value can be changed as wished
     fva_modely = y.summary(fva=0.9) #The fva is here set at 0.9 but the value can be changed as wished
@@ -118,6 +162,7 @@ for i in range(len(Edge_list)) :
     y_metabolist=pd.DataFrame(list(y_uptake_list['metabolite'])+list(y_secretion_list['metabolite']),columns=['metabolite'])
 
 #Isolation of common metabolites between the two MO
+    os.chdir(PATH)
     common_metabolites=0
     common_metabolites=[]
     for a in x_metabolist['metabolite']:
@@ -156,8 +201,9 @@ for i in range(len(Edge_list)) :
     Common_metabolites_y_flux=Common_metabolites_y_flux.rename(columns={"flux": "y_flux", "minimum": "y_minimum", "maximum":"y_maximum"})
     Common_metabolites_x_flux=Common_metabolites_x_flux.rename(columns={"flux": "x_flux", "minimum": "x_minimum", "maximum":"x_maximum"})
 #Fusion of the two tables
+    os.chdir("Data/FVA")
     Common_metabolite_flux=pd.merge(Common_metabolites_x_flux,Common_metabolites_y_flux)
-    Common_metabolite_flux.to_csv('/Projet_5.1/Data/FVA/FVA_'+Edge_list[i][0].lower()+'_vs_'+Edge_list[i][1].lower()+'.csv')
+    Common_metabolite_flux.to_csv('FVA_'+Edge_list[i][0].lower()+'_vs_'+Edge_list[i][1].lower()+'.csv')
 #Isolation of complementary flux ranges
     Range_x=interval([Common_metabolite_flux['x_minimum'][1],Common_metabolite_flux['x_maximum'][1]])
     Range_y=interval([Common_metabolite_flux['y_minimum'][1],Common_metabolite_flux['y_maximum'][1]])
@@ -168,7 +214,7 @@ for i in range(len(Edge_list)) :
       if not Range_x & Range_y and 0 in interval(Range_x[0][1],Range_y[0][0]):
         Interaction_table.append(Common_metabolite_flux.iloc[f])
     if len(Interaction_table) > 0 :
-        Interaction_table.to_csv('/Projet_5.1/Data/7_FVA/FVA_'+Edge_list[i][0].lower()+'_vs_'+Edge_list[i][1].lower()+'.csv')
+        Interaction_table.to_csv('FVA_'+Edge_list[i][0].lower()+'_vs_'+Edge_list[i][1].lower()+'.csv')
 #Isolation of predicted flux that may be complementary but have overlapping flux ranges
     Interaction_table_=pd.DataFrame(columns=Common_metabolite_flux.columns)
     Interaction_table_flux=Interaction_table
@@ -178,5 +224,6 @@ for i in range(len(Edge_list)) :
         if 0 in Flux_range :
           Interaction_table_flux=Interaction_table_flux.append(Common_metabolite_flux.iloc[flux_interval])
     if len(Interaction_table) > 0 :
-        Interaction_table.to_csv('/Projet_5.1/Data/7_Interaction/FVA_interaction_'+Edge_list[i][0].lower()+'_vs_'+Edge_list[i][1].lower()+'.csv')
+        os.chdir("Data/Interactions")
+        Interaction_table.to_csv('FVA_interaction_'+Edge_list[i][0].lower()+'_vs_'+Edge_list[i][1].lower()+'.csv')
 
